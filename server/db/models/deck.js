@@ -1,27 +1,28 @@
-const Sequelize = require('sequelize')
-const db = require('../db')
+const Sequelize = require('sequelize');
+const db = require('../db');
 
-const Deck = db.define('card', {
+const Deck = db.define('deck', {
   name: {
     type: Sequelize.STRING,
     unique: true,
-    allowNull: false
+    allowNull: false,
   },
   rank: {
-    type: Sequelize.INTEGER
+    type: Sequelize.STRING,
   },
   suit: {
-    type: Sequelize.STRING
+    type: Sequelize.STRING,
   },
-  meanings: {
-    type: Sequelize.HSTORE
+  light: {
+    type: Sequelize.ARRAY(Sequelize.STRING),
   },
+  shadow: { type: Sequelize.ARRAY(Sequelize.STRING) },
   keywords: {
-    type: Sequelize.ARRAY(Sequelize.STRING)
+    type: Sequelize.ARRAY(Sequelize.STRING),
   },
-  fortuneTelling: {
-    type: Sequelize.ARRAY(Sequelize.STRING)
-  }
-})
+  fortune_telling: {
+    type: Sequelize.ARRAY(Sequelize.STRING),
+  },
+});
 
-module.exports = Deck
+module.exports = Deck;
