@@ -1,7 +1,7 @@
 {
-  "name": "boilermaker",
+  "name": "tarot",
   "version": "2.0.0",
-  "description": "Some boilerplate code to get you started - get shakin'!",
+  "description": "Tarot app to improve Javascript skills and learn 78 tarot cards.",
   "engines": {
     "node": ">= 7.0.0"
   },
@@ -44,14 +44,14 @@
     "axios": "^0.19.0",
     "compression": "^1.7.3",
     "connect-session-sequelize": "^6.0.0",
-    "express": "^4.16.4",
+    "express": "^4.17.1",
     "express-session": "^1.15.1",
     "history": "^4.9.0",
     "morgan": "^1.9.1",
     "passport": "^0.4.0",
     "passport-google-oauth": "^2.0.0",
     "pg": "^7.9.0",
-    "pg-hstore": "^2.3.2",
+    "pg-hstore": "^2.3.3",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -60,8 +60,9 @@
     "redux": "^4.0.1",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
-    "sequelize": "^5.3.1",
-    "socket.io": "^2.2.0"
+    "sequelize": "^5.21.3",
+    "socket.io": "^2.2.0",
+    "tarot-deck": "^2.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
@@ -94,7 +95,7 @@
     "mocha": "^6.1.4",
     "nodemon": "^1.18.3",
     "npm-merge-driver": "^2.3.5",
-    "prettier": "1.11.1",
+    "prettier": "^1.11.1",
     "react-test-renderer": "^16.4.2",
     "redux-devtools-extension": "^2.13.5",
     "redux-mock-store": "^1.5.3",
