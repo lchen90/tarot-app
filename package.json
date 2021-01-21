@@ -62,7 +62,7 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
     "sequelize": "^5.21.3",
-    "socket.io": "^2.2.0",
+    "socket.io": "^2.4.0",
     "tarot-deck": "^2.0.1"
   },
   "devDependencies": {
